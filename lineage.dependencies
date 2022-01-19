@@ -1,0 +1,12 @@
+[
+   {
+      "repository":"ruizlenato/android_kernel_samsung_sdm845",
+      "target_path":"kernel/samsung/sdm845"
+   },
+   {   
+      "remote":"github",
+      "repository":"DotOS-Devices/proprietary_vendor_samsung_sdm845-common",
+      "target_path":"vendor/samsung/sdm845-common",
+      "branch":"dot11"
+   }
+]

@@ -34,6 +34,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
     persist.bluetooth.a2dp_offload.disabled=true \
     vendor.audio.feature.a2dp_offload.enable=false
 
+# API
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.product.first_api_level=29
+
 # Process pool
 PRODUCT_PRODUCT_PROPERTIES += \
     persist.device_config.runtime_native.usap_pool_enabled=true
